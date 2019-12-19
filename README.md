@@ -29,8 +29,8 @@ Note: the `@reboot` might not work on all systems, or some users. Therefor this 
 Note: the interpreter is not /bin/bash, it's /bin/sh which makes all the parsing and regex-matching a little trickier and requires a few more steps. Keep that in mind.
 
 ## Argument flags
--l LOG_FILE, where logs should be stored
--s SSO_KEY, API-key for your GoDaddy account
--a API_ENDPOINT, the API-endpoint used. Should be something similiar to: https://api.godaddy.com/v1/domains/{your domain here}/records/A
--i IP_API, to find your public IP. The response is supposed to be an IP-address in plaintext.
--t SLEEP, check interval
+-l LOG_FILE, where logs should be stored  
+-s SSO_KEY, API-key for your GoDaddy account  
+-a API_ENDPOINT, the API-endpoint used. Should be something similiar to: https://api.godaddy.com/v1/domains/{your domain here}/records/A  
+-i IP_API, to find your public IP. The response is supposed to be an IP-address in plaintext.  
+-t SLEEP, check interval  
